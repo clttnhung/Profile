@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.4/css/all.min.css" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Tuyet Nhung</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="fa-solid fa-house nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fa-regular fa-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fa-regular fa-file nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fa-regular fa-address-book nav__icon"></i> Contact me
+                        </a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button  -->
+                <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/clttnhung/" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/clttnhung" target="_blank" class="home__social-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://www.facebook.com/clttnhung/" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://github.com/clttnhung" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x="-75" y="-40" href="./assets/img/perfil.png" />
+                            </g>
+                        </svg>
+                        
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Tuyet Nhung</h1>
+                        <h3 class="home__subtitle">Frontend Developer</h3>
+                        <p class="home__description">“The only thing that is constant in life is change.” – Heraclitus</p>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="fas fa-mouse home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Cuộn xuống</span>
+                        <i class="fas fa-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        </section>
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About me</h2>
+            <span class="section__subtitle">Hello everybody, my name is Tuyet Nhung. I’m currently a third-year student at Da Nang University of Economics. My major is Management Information System. People always see me as a hard-working person. I’m aslo confident in my team work skills and willingness to learn. . With the business environment, I think i can learn a lot from those real projects and contribute my effort to those success projects. I'm excited to bring these skills to the role of Frontend Developer here. I hope I will get a chance to prove that I’m the intern you’re looking for. Thank you for your reading.</span>
+            <div class="about__buttons">
+                <a download="" href="assets//pdf/CV_TuyetNhung.pdf" class="button button--flex">
+                    Download CV<i class="fa-solid fa-download button__icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills_header">
+                                <i class="fas fa-code skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Frontend developer</h1>
+                                    <span class="skills__subtitle">More than 4 years</span>
+                                </div>
+
+                                <i class="fas fa-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list gird">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">8%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScrip</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills_header">
+                              <i class="fas fa-server skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Backend developer</h1>
+                                    <span class="skills__subtitle">More than 2 years</span>
+                                </div>
+                                <i class="fas fa-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list gird">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__php"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Node Js</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__node"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Firebase</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__firebase"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">55%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills_header">
+                              <i class="fas fa-server skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__titles">Designer</h1>
+                                    <span class="skills__subtitle">More than 2 years</span>
+                                </div>
+                                <i class="fas fa-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list gird">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__figma"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Sketch</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__Sketch"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__number">85</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__photoshop"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact_container container grid">
+                <div class="gom">
+                    <div class="contact__information">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">0868846729</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="fas fa-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">caolethituyetnhung@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="fas fa-map-marker-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Ngu Hanh Son, Da Nang</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact__form gird">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message
+                            <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src=""></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
