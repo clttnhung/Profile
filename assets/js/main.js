@@ -10,7 +10,6 @@ if(navToggle){
         navMenu.classList.add('show-menu')
     })
 }
-
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if(navClose){
@@ -19,8 +18,6 @@ if(navClose){
     }
 )
 }
-
-
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 function linkAction(){
@@ -48,8 +45,6 @@ skillsHeader.forEach((el) => {
 });
 
 
-
-
 /*==================== CHANGE BACKGROUND HEADER ====================*/ 
 function scrollHeader(){
     const nav = document.getElementById('header')
@@ -68,7 +63,6 @@ function scrollUp() {
 }
 
 window.addEventListener('scroll', scrollUp);
-
 
 /*==================== DARK LIGHT THEME ====================*/ 
 const themeButton = document.querySelector('.change-theme');
